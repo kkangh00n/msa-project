@@ -1,0 +1,26 @@
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+### Gradle ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### Kotlin ###
+.kotlin/
+
+### macOS ###
+.DS_Store
+
+### Claude Code ###
+.claude/
+
+### Logs ###
+*.log
+
+### Env ###
+.env
