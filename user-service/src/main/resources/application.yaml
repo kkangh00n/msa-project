@@ -1,3 +1,14 @@
+server:
+  port: 60000
+
 spring:
   application:
     name: user-service
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    # eureka 서버 url 정보
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka
