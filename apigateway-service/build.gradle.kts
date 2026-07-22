@@ -1,5 +1,5 @@
 dependencies {
-	implementation("org.springframework.boot:spring-boot-starter-webmvc")
-	implementation("org.springframework.cloud:spring-cloud-starter-gateway-server-webmvc")
-	developmentOnly("org.springframework.boot:spring-boot-devtools")
+	implementation("org.springframework.cloud:spring-cloud-starter-gateway-server-webflux")
+    implementation("org.springframework.cloud:spring-cloud-starter-netflix-eureka-client")
+    developmentOnly("org.springframework.boot:spring-boot-devtools")
 }
